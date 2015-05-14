@@ -54,7 +54,7 @@ from Old (1.x) Archetype: maven-archetype-webapp:1.0
 Maven使用一个标准的目录架构，如上示例，我们可以理解以下的关键概念：
 
 |文件夹结构	        |描述     |
-|:----------------|:-------------|
+|----------------|-------------|
 |trucks	|包含 src 文件夹和 pom.xml|
 |src/main/webapp	|包含 index.jsp 和 WEB-INF 文件夹.|
 |src/main/webapp/WEB-INF  |包含 web.xml|
@@ -147,7 +147,7 @@ C:\MVN\trucks\src\test\resources
 现在拷贝在 **C:\ > MVN > trucks > target >** 文件夹下的 trucks.war 到你的 web 服务器的 webapp 目录下，并且重启 web 服务。
 
 ## 测试 Web 应用
-使用 URL: **http://<server-name>:<port-number>/trucks/index.jsp** 来运行你的 Web 应用。
+使用 URL: **http://\<server-name\>:\<port-number\>/trucks/index.jsp** 来运行你的 Web 应用。
 
 验证输出结果：
 

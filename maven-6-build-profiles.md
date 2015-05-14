@@ -200,7 +200,7 @@ C:\MVN\project>mvn test
 C:\MVN\project>mvn test
 ```
 
-##通过操作系统激活配置文件
+##通过操作系统激活 Profile
 activation 元素包含下面的操作系统信息。当系统为 windows XP 时，test Profile 将会被触发。
 
 ```

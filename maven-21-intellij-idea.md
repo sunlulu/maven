@@ -70,6 +70,7 @@ IntelliJ IDEA 针对 Maven 支持内部构建功能。 在本例中，我们使�
 - 选中 consumerBanking 工程。
 - 右键点击 App.java 弹出上下文菜单。
 - 选择 **Run App.main()** .
+
 <center>
 ![Maven project in IntelliJ IDEA.](images/ij_run_app.jpg)
 </center>

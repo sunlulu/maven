@@ -138,7 +138,7 @@ C:\MVN\consumerBanking>mvn clean compile
 ```
 C:\MVN\consumerBanking\target\classes>java -cp com.companyname.bank.App
 ```
-看到结构了吗：
+看到结果了吗：
 
 ```
 Hello World!

@@ -99,7 +99,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 现在，右键点击 App.java. 选择 Run As 选项。选择 As Java App.
 
-你将会看到结果如下：
+你将看到如下结果：
 
 ```
 Hello World!

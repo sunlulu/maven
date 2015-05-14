@@ -1,4 +1,4 @@
-#<center>Maven - 外部依赖性 #
+#<center>Maven - 外部依赖 #
 现在，如你所知道的，Maven的依赖管理使用的是 [**Maven - 仓库**](maven-7-repositories.md) 的概念。但是如果在远程仓库和中央仓库中，依赖不能被满足，如何解决呢? Maven 使用外部依赖的概念来解决这个问题。
 
 例如，让我们对在 [**Maven - 创建工程**](maven-9-creating-project.md) 部分创建的项目做以下修改：
