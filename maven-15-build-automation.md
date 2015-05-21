@@ -1,9 +1,9 @@
-#<center> 构建自动化
+#<center>Maven - 构建自动化
 
 构建自动化定义为一种场景：一旦该工程成功构建完成，其相关的依赖工程即开始构建，目的是为了保证其依赖项目的稳定。
 
 ## 实例
-考虑一个团队正在开发一个关于总线核心 Api（称其为 bus-core-api）的工程，依赖它的工程有 2 个，分别为网页 UI（称其为 app-web-ui）和应用程序桌面 UI（称其为 app-desktop-ui）。
+假设有一个团队正在开发一个关于总线核心 Api（称其为 bus-core-api）的工程，依赖它的工程有 2 个，分别为网页 UI（称其为 app-web-ui）和应用程序桌面 UI（称其为 app-desktop-ui）。
 
 app-web-ui 工程使用 1.0-SNAPSHOT 总线核心 Api 工程，其 POM 文件如下：
 
@@ -73,7 +73,7 @@ bus-core-api 工程的 POM 文件如下：
 - 使用一个持续集成（CI）的服务器，比如 Hudson，来实现自动化创建。
 
 ## 使用 Maven
-更新 bus-core-api 工程的 pom.xml 文件
+更新 bus-core-api 工程的 pom.xml 文件。
 
 ```
 <project xmlns="http://maven.apache.org/POM/4.0.0" 

@@ -1,5 +1,5 @@
 #<center>Maven 教程
-1. [**教程**](maven-1-home.md)
+1. [**教程说明**](maven-1-home.md)
 2. [**概述**](maven-2-overview.md)
 3. [**环境设置**](maven-3-environment-setup.md)
 4. [**POM**](maven-4-pom.md)

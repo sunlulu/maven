@@ -1,4 +1,4 @@
-#<center> NetBeans
+#<center>Maven - NetBeans
 NetBeans 6.7 版本或者更新的版本针对 Maven 支持内部构建功能。 针对之前的版本，可以在插件管理器中找到 Maven 插件。在本例中，我们使用 NetBeans 6.9 版本。
 
 关于 NetBeans 的一些特性如下：
@@ -17,15 +17,15 @@ NetBeans 6.7 版本或者更新的版本针对 Maven 支持内部构建功能。
 
 ## 在 NetBeans 里打开一个 Maven 工程
 
-- 打开 NetBeans.
-- 选择 **File Menu > Open Project** 选项.
-- 选择工程的路径，即使用 Maven 创建一个工程时的存储路径。假设我们创建了一个工程： consumerBanking. 通过 [**Maven - 创建工程**](maven-9-creating-project.md) 查看如何使用 Maven 创建一个工程。
+- 打开 NetBeans。
+- 选择 **File Menu > Open Project** 选项。
+- 选择工程的路径，即使用 Maven 创建一个工程时的存储路径。假设我们创建了一个工程： consumerBanking。通过 [**Maven - 创建工程**](maven-9-creating-project.md) 查看如何使用 Maven 创建一个工程。
 
 <center>
 ![Open a Maven project in NetBeans.](images/nb_open_project.jpg)
 </center>
 
-目前为止，你已经可以在 NetBeans 里看到 Maven 工程了。看一下consumerBanking 工程的 Libraries 和 Test Libraries. 你可以发现 NetBeans 已经将 Maven 所依赖的都添加到了它的构建路径里了。 
+目前为止，你已经可以在 NetBeans 里看到 Maven 工程了。看一下 consumerBanking 工程的 Libraries 和 Test Libraries. 你可以发现 NetBeans 已经将 Maven 所依赖的都添加到了它的构建路径里了。 
 
 <center>
 ![Maven project in NetBeans.](images/nb_project_structure.jpg)
@@ -35,7 +35,7 @@ NetBeans 6.7 版本或者更新的版本针对 Maven 支持内部构建功能。
 好了，我们来使用 NetBeans 的编译功能来构建这个 Maven 工程
 
 - 右键点击 consumerBanking 工程打开上下文菜单。
-- 选择 "Clean and Build" 选项
+- 选择 “Clean and Build” 选项。
 
 <center>
 ![Build a Maven project in NetBeans.](images/nb_build_options.jpg)

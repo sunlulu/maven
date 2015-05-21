@@ -1,6 +1,6 @@
-#<center> Elipse IDE
+#<center>Maven - Elipse IDE
 
-Eclipse 提供一种卓越的插件 [**m2eclipse**](http://www.eclipse.org/m2e/)，该插件使得Maven和Eclipse能够无缝集成。
+Eclipse 提供了一种非常好用的插件 [**m2eclipse**](http://www.eclipse.org/m2e/)，该插件使得 Maven 和 Eclipse 能够无缝集成。
 下面列出 m2eclipse 的一些特点：
 
 - 可以在 Eclipse 环境上运行 Maven 的目标文件；
@@ -18,8 +18,8 @@ Eclipse 提供一种卓越的插件 [**m2eclipse**](http://www.eclipse.org/m2e/)
 
 ## 在 Eclipse 中导入一个 Maven 的工程
 
-- 打开 Eclipse.
-- 选择 **File > Import** > option.
+- 打开 Eclipse。
+- 选择 **File > Import** > option。
 - 选择 Maven Projects 选项。点击 Next 按钮。
 
 <center>

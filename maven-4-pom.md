@@ -31,9 +31,9 @@ POM 也包含了目标和插件。当执行一个任务或者目标时，Maven �
 ```
 需要说明的是每个工程应该只有一个 POM 文件。
 
-* 所有的 POM 文件需要**project**元素和三个必须的字段：**groupId, artifactId,version**。
-* 在仓库中的工程标识为**groupId:artifactId:version**
-* POM.xml 的根元素是**project**，它有三个主要的子节点：
+* 所有的 POM 文件需要 **project** 元素和三个必须的字段：**groupId、 artifactId、version**。
+* 在仓库中的工程标识为 **groupId:artifactId:version**。
+* POM.xml 的根元素是 **project**，它有三个主要的子节点：
 
 节点        | 描述
 -----------|-----------------------------------------------------

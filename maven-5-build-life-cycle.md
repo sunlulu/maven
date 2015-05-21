@@ -31,7 +31,7 @@ mvn clean dependency:copy-dependencies package
 
 ##clean 生命周期
 
-当我们执行 *mvn post-clean* 命令时，Maven 调用 clean 生命周期，它包含以下阶段。
+当我们执行 **mvn post-clean** 命令时，Maven 调用 clean 生命周期，它包含以下阶段。
 
 * pre-clean
 * clean
@@ -143,8 +143,8 @@ Maven 将会开始处理并显示 clean 生命周期的所有阶段。
 ##Default (or Build) 生命周期
 这是 Maven 的主要生命周期，被用于构建应用。包括下面的 23 个阶段。
 
-生命周期阶段 | 描述
----------- |-------
+生命周期阶段                | 描述
+------------------------- |-------
 validate | 检查工程配置是否正确，完成构建过程的所有必要信息是否能够获取到。
 initialize | 初始化构建状态，例如设置属性。
 generate-sources | 生成编译阶段需要包含的任何源码文件。

@@ -1,4 +1,4 @@
-#<center> IntelliJ IDEA
+#<center>Maven - IntelliJ IDEA
 
 IntelliJ IDEA 针对 Maven 支持内部构建功能。 在本例中，我们使用 IntelliJ IDEA Community Edition 11.1 的版本。
 
@@ -19,7 +19,7 @@ IntelliJ IDEA 针对 Maven 支持内部构建功能。 在本例中，我们使�
 ## 在 IntelliJ IDEA 里创建一个新的工程
 我们将会使用新建工程向导来导入一个 Maven 工程。
 
-- 打开 IntelliJ IDEA.
+- 打开 IntelliJ IDEA。
 - 选择 **File Menu > New Project** 选项。
 - 选择 **import project from existing model** 选项。
 
@@ -42,7 +42,7 @@ IntelliJ IDEA 针对 Maven 支持内部构建功能。 在本例中，我们使�
 ![New Project in IntelliJ IDEA, step 4.](images/ij_new_project_step4.jpg)
 </center>
 
-- 输入工程名称，点击 "finish".
+- 输入工程名称，点击 “finish”。
 <center>
 ![New Project in IntelliJ IDEA, step 5.](images/ij_new_project_step5.jpg)
 </center>
@@ -69,7 +69,7 @@ IntelliJ IDEA 针对 Maven 支持内部构建功能。 在本例中，我们使�
 
 - 选中 consumerBanking 工程。
 - 右键点击 App.java 弹出上下文菜单。
-- 选择 **Run App.main()** .
+- 选择 **Run App.main()** 。
 
 <center>
 ![Maven project in IntelliJ IDEA.](images/ij_run_app.jpg)

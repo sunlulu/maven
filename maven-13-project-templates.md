@@ -68,8 +68,6 @@ Choose a number: 6:
 
 按下 Enter 选择默认选项 (6:maven-archetype-quickstart:1.1)
 
-Maven will ask for project detail. Enter project detail as asked.Press Enter if default value is provided. You can override them by entering your own value.
-
 Maven 将询问工程细节。按要求输入工程细节。如果要使用默认值则直接按 Enter 键。你也可以输入自己的值。
 
 ```
@@ -149,8 +147,6 @@ Maven 为工程生成一个 POM.xml文件，如下所列:
 ```
 
 ##创建 App.java
-
-Maven generates sample java source file, App.java for the project as listed below:
 
 Maven 生成一个 java 源文件示例，工程的 App.java 如下所示:
 

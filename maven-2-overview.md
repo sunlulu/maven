@@ -1,4 +1,4 @@
-#<center>Maven 概述
+#<center>Maven - 概述
 ##Maven 是什么？
 Maven 是一个项目管理和整合工具。Maven 为开发者提供了一套完整的构建生命周期框架。开发团队几乎不用花多少时间就能够自动完成工程的基础构建配置，因为 Maven 使用了一个标准的目录结构和一个默认的构建生命周期。
 
@@ -28,7 +28,7 @@ Maven 的主要目的是为开发者提供
 * 一个可复用、可维护、更易理解的工程综合模型
 * 与这个模型交互的插件或者工具
 
-Maven 工程结构和内容被定义在一个 xml 文件中 － pom.xml，是 Project Object Model (POM) 的简称，此文件是整个 Maven 系统的基础组件。详细内容请参考 Maven POM 部分。
+Maven 工程结构和内容被定义在一个 xml 文件中 － pom.xml，是 Project Object Model (POM) 的简称，此文件是整个 Maven 系统的基础组件。详细内容请参考 [**Maven - POM**](maven-4-pom.md) 部分。
 
 ##约定优于配置
 Maven 使用约定而不是配置，意味着开发者不需要再自己创建构建过程。
@@ -48,4 +48,4 @@ distributable JAR  | ${basedir}/target/classes
 
 为了构建工程，Maven 为开发者提供了选项来配置生命周期目标和工程依赖（依赖于 Maven 的插件扩展功能和默认的约定）。大部分的工程管理和构建相关的任务是由 Maven 插件完成的。
 
-开发人员不需要了解每个插件是如何工作的，就能够构建任何给定的 Maven 工程。详细内容请参考 Maven 插件部分。
+开发人员不需要了解每个插件是如何工作的，就能够构建任何给定的 Maven 工程。详细内容请参考 [**Maven - 插件**](maven-8-plug-ins.md) 部分。

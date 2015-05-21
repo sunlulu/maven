@@ -8,11 +8,11 @@ Profile 在 pom.xml 中使用 activeProfiles / profiles 元素指定，并且可
 ##Profile 类型
 Profile 主要有三种类型。
 
-类型         | 在哪里定义
+| 类型         | 在哪里定义| 
 ------------|----------------------------------------------------
-Per Project | 定义在工程 POM 文件 pom.xml 中
-Per User    | 定义在 Maven 设置 xml 文件中 （%USER_HOME%/.m2/settings.xml）
-Global      | 定义在 Maven 全局配置 xml 文件中 （%M2_HOME%/conf/settings.xml）
+| Per Project | 定义在工程 POM 文件 pom.xml 中| 
+| Per User    | 定义在 Maven 设置 xml 文件中 （%USER_HOME%/.m2/| settings.xml）| 
+| Global      | 定义在 Maven 全局配置 xml 文件中 （%M2_HOME%/conf/settings.xml）|
 
 ##Profile 激活
 Maven 的 Profile 能够通过几种不同的方式激活。
@@ -150,7 +150,7 @@ C:\MVN\project>mvn test -Pprod
 检查构建的输出看看有什么不同。
 
 ##通过 Maven 设置激活 Profile
-打开 Maven 的 settings.xml 文件，该文件可以在 %USER_HOME%/.m2 目录下找到，%USER_HOME% 表示用户主目录。如果 settings.xml 文件不存在则需要创建一个。
+打开 Maven 的 settings.xml 文件，该文件可以在 %USER_HOME%/.m2 目录下找到，%USER\_HOME% 表示用户主目录。如果 settings.xml 文件不存在则需要创建一个。
 
 像在下面例子中展示的一样，使用 activeProfiles 节点添加 test 配置作为激活的 Profile。
 

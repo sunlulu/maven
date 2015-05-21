@@ -13,7 +13,7 @@ Maven 本地仓库是机器上的一个文件夹。它在你第一次运行任�
 
 Maven 本地仓库保存你的工程的所有依赖（library jar、plugin jar 等）。当你运行一次 Maven 构建，Maven 会自动下载所有依赖的 jar 文件到本地仓库中。它避免了每次构建时都引用存放在远程机器上的依赖文件。
 
-Maven 本地仓库默认被创建在 %USER_HOME% 目录下。要修改默认位置，在 %M2_HOME%\conf 目录中的 Maven 的 settings.xml 文件中定义另一个路径。
+Maven 本地仓库默认被创建在 %USER_HOME% 目录下。要修改默认位置，在 %M2\_HOME%\conf 目录中的 Maven 的 settings.xml 文件中定义另一个路径。
 
 ```
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
@@ -73,7 +73,7 @@ Maven 中央仓库是由 Maven 社区提供的仓库，其中包含了大量常�
 </project>
 ```
 
-##Maven 依赖搜索顺序
+##Maven 依赖文件的搜索顺序
 当我们执行 Maven 构建命令时，Maven 开始按照以下顺序查找依赖的库：
 
 * **步骤 1** － 在本地仓库中搜索，如果找不到，执行步骤 2，如果找到了则执行其他操作。

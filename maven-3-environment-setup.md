@@ -1,14 +1,14 @@
-#<center>Maven 环境配置
+#<center>Maven - 环境配置
 Maven 是一个基于 Java 的工具，所以要做的第一件事情就是安装 JDK。
 
 ##系统要求
 
 项目              | 要求
 ---------------- | -----------------------
-JDK              | 1.5 or above.
-Memory           | no minimum requirement.
-Disk Space       | no minimum requirement.
-Operating System | no minimum requirement.
+JDK              | 1.5 或以上
+内存           | 没有最小要求
+磁盘空间       | 没有最小要求
+操作系统 | 没有最小要求
 
 ##步骤1：检查 Java 安装
 现在打开控制台，执行下面的 java 命令。
@@ -23,9 +23,9 @@ Mac     | 打开终端                | machine:~ joseph$ java -version
 
 操作系统 | 输出
 --------|---------------------------------------------------------
-Windows | java version "1.6.0_21"<br/>Java(TM) SE Runtime Environment (build 1.6.0_21-b07)<br/>Java HotSpot(TM) Client VM (build 17.0-b17, mixed mode, sharing)
-Linux   | java version "1.6.0_21"<br/>Java(TM) SE Runtime Environment (build 1.6.0_21-b07)<br/>Java HotSpot(TM) Client VM (build 17.0-b17, mixed mode, sharing)
-Mac     | java version "1.6.0_21"<br/>Java(TM) SE Runtime Environment (build 1.6.0_21-b07)<br/>Java HotSpot(TM)64-Bit Server VM (build 17.0-b17, mixed mode, sharing)
+Windows | java version "1.6.0\_21"<br/>Java(TM) SE Runtime Environment (build 1.6.0_21-b07)<br/>Java HotSpot(TM) Client VM (build 17.0-b17, mixed mode, sharing)
+Linux   | java version "1.6.0\_21"<br/>Java(TM) SE Runtime Environment (build 1.6.0_21-b07)<br/>Java HotSpot(TM) Client VM (build 17.0-b17, mixed mode, sharing)
+Mac     | java version "1.6.0\_21"<br/>Java(TM) SE Runtime Environment (build 1.6.0_21-b07)<br/>Java HotSpot(TM)64-Bit Server VM (build 17.0-b17, mixed mode, sharing)
 
 如果你没有安装 Java，从以下网址安装 Java 软件开发套件（SDK）：[**http://www.oracle.com/technetwork/java/javase/downloads/index.html**](http://www.oracle.com/technetwork/java/javase/downloads/index.html)。我们假定你安装的 Java 版本为1.6.0_21。
 
@@ -34,7 +34,7 @@ Mac     | java version "1.6.0_21"<br/>Java(TM) SE Runtime Environment (build 1.6
 
 操作系统 | 输出
 --------|---------------------------------------------------------
-Windows | Set the environment variable JAVA_HOME to C:\Program Files\Java\jdk1.6.0_21
+Windows | Set the environment variable JAVA\_HOME to C:\Program Files\Java\jdk1.6.0_21
 Linux   | export JAVA_HOME=/usr/local/java-current
 Mac     | export JAVA_HOME=/Library/Java/Home
 
@@ -67,20 +67,20 @@ Linux   | /usr/local/apache-maven
 Mac     | /usr/local/apache-maven
 
 ##步骤5：设置 Maven 环境变量
-添加 M2_HOME、M2、MAVEN_OPTS 到环境变量中。
+添加 M2\_HOME、M2、MAVEN_OPTS 到环境变量中。
 
 操作系统 | 输出
 --------|-------------------------------------------------------
-Windows | 使用系统属性设置环境变量。<br/>M2_HOME=C:\Program Files\Apache Software Foundation\apache-maven-2.2.1<br/>M2=%M2_HOME%\bin<br/>MAVEN_OPTS=-Xms256m -Xmx512m
-Linux   | 打开命令终端设置环境变量。<br/>export M2_HOME=/usr/local/apache-maven/apache-maven-2.2.1<br/>export M2=$M2_HOME/bin<br/>export MAVEN_OPTS=-Xms256m -Xmx512m
-Mac     | 打开命令终端设置环境变量。<br/>export M2_HOME=/usr/local/apache-maven/apache-maven-2.2.1<br/>export M2=$M2_HOME/bin<br/>export MAVEN_OPTS=-Xms256m -Xmx512m
+Windows | 使用系统属性设置环境变量。<br/>M2\_HOME=C:\Program Files\Apache Software Foundation\apache-maven-2.2.1<br/>M2=%M2\_HOME%\bin<br/>MAVEN_OPTS=-Xms256m -Xmx512m
+Linux   | 打开命令终端设置环境变量。<br/>export M2\_HOME=/usr/local/apache-maven/apache-maven-2.2.1<br/>export M2=$M2_HOME/bin<br/>export MAVEN\_OPTS=-Xms256m -Xmx512m
+Mac     | 打开命令终端设置环境变量。<br/>export M2\_HOME=/usr/local/apache-maven/apache-maven-2.2.1<br/>export M2=$M2_HOME/bin<br/>export MAVEN\_OPTS=-Xms256m -Xmx512m
 
 ##步骤6：添加 Maven bin 目录到系统路径中
-现在添加 M2 变量到系统“Path”变量中
+现在添加 M2 变量到系统 “Path” 变量中
 
 操作系统 | 输出
 --------|-------------------------------------------------------
-Windows | 添加字符串 “;%M2%” 到系统“Path”变量末尾
+Windows | 添加字符串 “;%M2%” 到系统 “Path” 变量末尾
 Linux   | export PATH=$M2:$PATH
 Mac     | export PATH=$M2:$PATH
 
@@ -97,8 +97,8 @@ Mac     | 打开终端      | machine:~ joseph$ mvn --version
 
 操作系统 | 输出
 --------|-------------------------------------------------------
-Windows | Apache Maven 2.2.1 (r801777; 2009-08-07 00:46:01+0530)<br/>Java version: 1.6.0_21<br/>Java home: C:\Program Files\Java\jdk1.6.0_21\jre
-Linux   | Apache Maven 2.2.1 (r801777; 2009-08-07 00:46:01+0530)<br/>Java version: 1.6.0_21<br/>Java home: C:\Program Files\Java\jdk1.6.0_21\jre
-Mac     | Apache Maven 2.2.1 (r801777; 2009-08-07 00:46:01+0530)<br/>Java version: 1.6.0_21<br/>Java home: C:\Program Files\Java\jdk1.6.0_21\jre
+Windows | Apache Maven 2.2.1 (r801777; 2009-08-07 00:46:01+0530)<br/>Java version: 1.6.0_21<br/>Java home: C:\Program Files\Java\jdk1.6.0\_21\jre
+Linux   | Apache Maven 2.2.1 (r801777; 2009-08-07 00:46:01+0530)<br/>Java version: 1.6.0_21<br/>Java home: C:\Program Files\Java\jdk1.6.0\_21\jre
+Mac     | Apache Maven 2.2.1 (r801777; 2009-08-07 00:46:01+0530)<br/>Java version: 1.6.0_21<br/>Java home: C:\Program Files\Java\jdk1.6.0\_21\jre
 
 恭喜！你完成了所有的设置，开始使用 Apache Maven 吧。
